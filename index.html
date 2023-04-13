@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- this is external css  priority give to  css which is write after  if we want to  assign  priority so simply add '!important' keyword -->
+    <style>
+        p{
+           color: red ;
+           background-color: yellow !important; 
+           /* important priority is 1 */
+            
+         }
+   </style>
+
+       <link rel="stylesheet" href="css1.css">   
+      <!-- if we mark two things !important than priority give to after mathod -->
+     <!-- this is external css  priority give to  css which is write after-->
+      
+    <title>css1</title>
+</head>
+<body>
+    <header>
+          <!-- this is inline css  priority 1 --> 
+
+        <p  style="color: blue; background-color: hotpink;">helo</p> 
+          <p>helo2</p>
+          <p>helo3</p>
+    </header>
+    
+</body>
+</html>
